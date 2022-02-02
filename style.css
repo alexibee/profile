@@ -13,7 +13,6 @@ body {
 }
 
 h1, h2, h3 {
-  font-family: Yantramanav;
   color: rgba(244,238,244,0.8);
 }
 h1 {
@@ -35,7 +34,7 @@ h3 {
   color: rgba(234,249,55,1);
   font-size: 24px;
   line-height: 28px;
-  margin-bottom: 20px;
+  margin-bottom: 30px;
 }
 
 a {
@@ -55,13 +54,14 @@ p {
   width: 700px;
   margin: 0 auto;
   position: relative;
+  height: 100vh;
 }
 
 .card {
   border-radius: 10px;
   background-color:rgba(100,100,100,1);
   padding: 3em;
-  margin: 40px 0;
+  margin: 50px 0;
   box-shadow: 0 10px 30px rgba(200,200,200,0.1);
 }
 
@@ -82,7 +82,7 @@ p {
 .btn-hi {
   background-color: rgba(250,80,100,1);
   border: 1px solid rgba(2,17,27,0.2);
-  color: rgba(2,17,27,0.9);
+  color: rgba(244,238,244,1);
   padding: 0.3em 2em;
   border-radius: 0.3em;
   box-shadow: 0 10px 30px rgba(20,20,20,0.1);
@@ -94,16 +94,20 @@ p {
   color: rgba(2,17,27,1);
 }
 
+.links {
+  padding: 2em 3em 2em 3em;
+}
+
 .links a {
   font-size: 28px;
   font-weight: 500;
 }
 
 .profile-img {
-  height: 170px;
-  width: 170px;
+  height: 150px;
+  width: 150px;
   margin: 1em;
-  border-radius: 70%;
+  border-radius: 50%;
   box-shadow: 0 10px 30px rgba(200,200,200,0.1);
 }
 
