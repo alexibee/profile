@@ -1,0 +1,151 @@
+* {
+  text-decoration: none;
+  margin: 0;
+}
+
+body {
+  background-color: rgba(30,30,30,1);
+  font-family: Yantramanav;
+  color: rgba(2,17,27,1);
+  font-weight: 300;
+  font-size: 18px;
+  line-height: 20px;
+}
+
+h1, h2, h3 {
+  font-family: Yantramanav;
+  color: rgba(244,238,244,0.8);
+}
+h1 {
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 42px;
+}
+
+h2 {
+  color: rgba(2,17,27,0.9);
+  font-weight: 500;
+  font-size: 26px;
+  line-height: 32px;
+  margin-bottom: 16px;
+}
+
+h3 {
+  font-weight: 500;
+  color: rgba(234,249,55,1);
+  font-size: 24px;
+  line-height: 28px;
+  margin-bottom: 20px;
+}
+
+a {
+  color: rgba(244,238,244,0.8);
+  font-weight: 400;
+}
+
+a:hover {
+  color: rgba(234,249,55,1);
+}
+
+p {
+  margin: 10px 0 30px 0;
+}
+
+.container {
+  width: 700px;
+  margin: 0 auto;
+  position: relative;
+}
+
+.card {
+  border-radius: 10px;
+  background-color:rgba(100,100,100,1);
+  padding: 3em;
+  border: 0.1em solid rgba(2,17,27,0.5);
+  margin: 40px 0;
+  box-shadow: 0 10px 30px rgba(200,200,200,0.1);
+}
+
+.text-align {
+  text-align: center;
+}
+
+.list-inline {
+  list-style: none;
+  padding-left: 0px;
+}
+
+.list-inline > li {
+  display: inline-block;
+  padding: 0px 30px;
+}
+
+.btn-hi {
+  background-color: rgba(250,80,100,1);
+  border: 1px solid rgba(2,17,27,0.2);
+  color: rgba(2,17,27,0.9);
+  padding: 0.3em 2em;
+  border-radius: 0.3em;
+  box-shadow: 0 10px 30px rgba(20,20,20,0.1);
+  font-weight: 500;
+}
+
+.btn-hi:hover {
+  background-color: rgba(250,70,100,0.9);
+  color: rgba(2,17,27,1);
+}
+
+.links a {
+  font-size: 28px;
+  font-weight: 500;
+}
+
+.profile-img {
+  height: 170px;
+  width: 170px;
+  margin: 1em;
+  border-radius: 70%;
+  box-shadow: 0 10px 30px rgba(200,200,200,0.1);
+}
+
+.profile-img:hover {
+  filter: brightness(95%);
+}
+
+.fun-img {
+  width: 100px;
+  position:absolute;
+  left: 90%;
+  bottom: 90%;
+}
+
+@media (max-width: 960px) {
+  /* For a screen < 960px, this CSS will be read */
+  .container {
+    width: 700px;
+  }
+}
+
+@media (max-width: 720px) {
+  /* For a screen < 720px, this CSS will be read */
+  .container {
+    width: 500px;
+  }
+  .fun-img {
+    width: 88px;
+    left: 89%;
+    bottom: 91%;
+  }
+}
+
+@media (max-width: 540px) {
+  /* For a screen < 540px, this CSS will be read */
+  .container {
+    width: 300px;
+  }
+  .fun-img {
+    width: 70px;
+    left: 86%;
+    bottom: 94%;
+  }
+}
