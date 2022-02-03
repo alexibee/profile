@@ -61,7 +61,7 @@ p {
   border-radius: 10px;
   background-color:rgba(100,100,100,1);
   padding: 3em;
-  margin: 50px 0;
+  margin: 50px 0 10px 0;
   box-shadow: 0 10px 30px rgba(200,200,200,0.1);
 }
 
@@ -119,6 +119,10 @@ p {
   position:absolute;
   left: 90%;
   bottom: 90%;
+}
+
+.attributes {
+  font-size: 10px;
 }
 
 @media (max-width: 960px) {
